@@ -132,7 +132,7 @@ if __name__ == '__main__':
     threads = []
     a = time.time()
     for i in range(3):
-        collector = SSHCollector('173.39.245.139', 'sds',  '31415SdS31415', \
+        collector = SSHCollector('111.11.11.111', 'someuser',  'somepassword', \
 	                      'auto', 'dummylogger', None)
     collector.setCommand(cmd)
     threads.append(collector)
